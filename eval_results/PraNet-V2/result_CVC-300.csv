@@ -1,0 +1,2 @@
+method, meanDic, meanIoU, wFm, Sm, meanEm, mae
+PraNet-V2,0.8983,0.8266,0.8779,0.9370,0.9747,0.0059,

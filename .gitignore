@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets
+data/TestDataset/
+data/TrainDataset/
+
+# Large pretrained/model weights
+models/*.pth
+models/**/*.pth
+snapshots/**/*.pth
+
+# Generated predictions/results
+results/
+
+# Keep evaluation CSVs
+!eval_results/
+!eval_results/**/*.csv
+
+# OS/editor files
+.DS_Store
+.vscode/
